@@ -5,9 +5,9 @@ class Main {
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("Podaj równanie w postaci a*x + b = 0");
-    System.out.println("Podaj wartość a: ");
+    System.out.println("Podaj wartość a: "); //podajemy wartość a
     double a = scanner.nextDouble();
-    System.out.println("Podaj wartość b: ");
+    System.out.println("Podaj wartość b: "); //podajemy wartość b
      double b = scanner.nextDouble();
      if (a == 0) { //jeśli współczynnik jest równy 0 wtedy nie ma równania liniowego
             System.out.println("To nie jest równanie liniowe.");
@@ -15,7 +15,7 @@ class Main {
             System.out.println("To jest równanie liniowe.");
             System.out.println("Równanie: " + a + "*x + " + b + " = 0"); // tutaj jest wyświetlane równanie
             double x = -b / a; //jeśli występuje równanie liniowe  to posiada miejsce zerowe
-            System.out.println("Rozwiązanie równania: x = " + x);
+            System.out.println("Rozwiązanie równania: x = " + x); //wypisywanie rozwiązania równania
         }
 
         scanner.close();
