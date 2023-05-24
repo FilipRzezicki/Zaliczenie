@@ -10,7 +10,7 @@ class Main {
     System.out.println("Podaj wartość b: "); //podajemy wartość b
      double b = scanner.nextDouble();
      if (a == 0) { //jeśli współczynnik jest równy 0 wtedy nie ma równania liniowego ~ definicja prosto ze strony ministerstwa
-            System.out.println("To nie jest równanie liniowe.");
+            System.out.println("To nie jest równanie liniowe. Czyli ma postać: " + "y=" + b);
         } else {
             System.out.println("To jest równanie liniowe.");
             System.out.println("Równanie: " + a + "*x + " + b + " = 0"); // tutaj jest wyświetlane równanie
